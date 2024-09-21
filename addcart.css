@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 
+               'Lucida Sans Unicode', 
+                'Lucida Grande', 
+                'Lucida Sans',
+                 Arial, sans-serif;
+   scroll-behavior: smooth;
+   list-style: none;
+   text-decoration: none;
+   } 
+   header{
+         width: 100%;
+          
+   }
+   .top-nav{
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+       background-color: #fff;
+       border-bottom: 1px solid #eee;
+       height: 35px;
+       margin: 0 50px;
+   }
+   .top-nav-left ul li,.top-nav-right ul li{
+       display: inline;
+   }
+   .top-nav-left ul li a,.top-nav-right ul li a{
+       text-decoration: none;
+       margin: 0 15px;
+       font-size: 13px;
+       color: #616060;
+   }
+   .top-nav-right ul li a{
+       margin:  0 6px;
+   }
+   .midle-nav{
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+       height: 100px;
+   }
+   .midle-nav .midle-nav-center ul li{
+       display: inline;
+   }
+   .midle-nav .midle-nav-right ul li{
+       display: inline;
+   }
+   .midle-nav .midle-nav-right ul li a{
+       margin: 0 15px;
+       color: #5e5c5c;
+       font-size: 16px;
+   }
+   .midle-nav .midle-nav-center ul li a{
+       margin: 15px;
+       text-decoration: none;
+       color: #616060;
+       font-size: 16px;
+       font-weight: 550;
+   }
+   .midle-nav .midle-nav-center ul li a:hover{
+       color: red;
+   }
+   .midle-nav .logo h1{
+       font-size: 32px;
+       font-weight:800;
+       color: red;
+   }
+   .midle-nav .logo h1 span{
+       font-size: 25px;
+       font-weight:800;
+       color:grey;
+   }
+   .bottom-nav{
+       background-color: black;
+   }
+   .bottom-nav p{
+       color: white;
+       text-align: center;
+       padding: 20px;
+       font-size: 15px;
+   }
+   .bottom-nav p a{
+       color: yellow;
+       text-decoration: underline;
+       text-underline-offset: 3px;
+       font-size: 15px;
+       font-weight: 600;
+   }
+.product {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.cart {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#cart-items {
+    list-style: none;
+    padding: 0;
+}
+
+#cart-items li {
+    margin-bottom: 10px;
+}
+.product{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.row img{
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin-left: 50px;
+}
+.row h2{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.row p{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.row button{
+    padding: 10px 14px;
+    margin-left: 50px;
+    background-color: hsl(0, 100%, 60%);
+    border-radius: 10px;
+    margin-top: 10px;
+    border: hidden;
+    color: #eee;
+    cursor: pointer;
+}
+.cart h2 i{
+    font-size: 50px;
+}
+ 

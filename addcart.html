@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Add to Cart</title>
+    <link rel="stylesheet" href="addcart.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="top-nav">
+                <div class="top-nav-left">
+                    <ul>
+                        <li><a href="aboutus.html">About Us</a></li>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Career</a></li>
+                    </ul>
+                </div>
+                <div class="top-nav-right">
+                    <ul>
+                        <li><a href="#">Wachlist</a></li>
+                        <li><a href="#">Track Ordr</a></li>
+                        <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-square-instagram"></i></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-square-x-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="midle-nav">
+                <div class="logo">
+                    <h1>E-<span>Shoping</span></h1>
+                </div>
+                <div class="midle-nav-center">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="men.html">Men</a></li>
+                        <li><a href="women.html">Women</a></li>
+                        <li><a href="kids.html">kids wear</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">Blogs</a></li>
+                        <li><a href="#">Pags</a></li>
+                    </ul>
+                </div>
+                <div class="search-container">
+                    <input type="text" id="searchInput" placeholder="Search...">
+                    <button id="searchButton"><i class="fa fa-search"></i></button>
+                </div>
+
+                <div id="searchResults"></div>
+                <div class="midle-nav-right">
+                    <ul>
+                        <li><a href="#"><i class="fa-solid fa-user"></i></a></li>
+                        <li><a href="addcart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="bottom-nav">
+                <p>Sale up to 50% Grab offers <a href="#">shop now</a></p>
+
+            </div>
+        </nav>
+    </header>
+    <div class="product">
+        <div class="row">
+            <img src="1.jpg" alt="Product Image">
+            <h2>Half ruuning set</h2>
+            <p>Price: $150</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="row">
+            <div class="cart">
+                <h2><i class="fa-solid fa-cart-shopping"></i></h2>
+                <ul id="cart-items">
+                </ul>
+                <p id="total">Total: $0.00</p>
+            </div>
+        </div>
+    </div>
+    <script src="addcart.js"></script>
+</body>
+
+</html>
